@@ -4,7 +4,7 @@
     --bs-primary-light:#00439C;
 }
 
-section {
+section, footer {
     padding: 2rem 0;
 }
 
@@ -32,6 +32,18 @@ main section.banner {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
     background-position: center;
+}
+
+footer.footer-bg {
+    background-color: var(--bs-primary-light);
+}
+
+footer ul li,
+footer ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    padding-bottom: 0.5rem;
 }
 
 .pad-200 {
