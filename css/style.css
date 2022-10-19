@@ -25,3 +25,7 @@ main section.jumbotron {
 .pad-200 {
     padding-top: 200px;
 }
+
+.pad-10 {
+    padding: 10rem 0;
+}
