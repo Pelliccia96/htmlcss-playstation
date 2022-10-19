@@ -11,3 +11,13 @@ header .my-img {
     height: 50px;
     margin-left: auto;
 }
+
+main section.jumbotron {
+    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+.pad-200 {
+    padding-top: 200px;
+}
