@@ -19,6 +19,12 @@ header .my-img {
 main section.jumbotron {
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
+    background-position: top;
+}
+
+main section.banner {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
     background-position: center;
 }
 
@@ -27,5 +33,5 @@ main section.jumbotron {
 }
 
 .pad-10 {
-    padding-top: 10rem;
+    padding-top: 8rem;
 }
