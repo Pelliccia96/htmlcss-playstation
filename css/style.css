@@ -1,3 +1,9 @@
+:root {
+    --bs-primary: #161c3b;
+    --bs-primary-rgb: 22, 28, 59;
+    --bs-primary-light:#00439C;
+}
+
 section {
     padding: 2rem 0;
 }
