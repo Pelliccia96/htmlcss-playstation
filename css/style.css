@@ -2,6 +2,7 @@
     --bs-primary-dark: #161c3b;
     --bs-primary-light:#00439C;
     --bs-my-btn-color: #cd3d0f;
+    --bs-my-txt-color: black;
 }
 
 section, footer {
@@ -62,10 +63,11 @@ footer ul li a {
     padding-top: 8rem;
 }
 
-.nav-h:hover {
+header nav .nav-h:hover {
     background-color: lightgray;
     scale: 1.2;
     border-radius: 15px;
+    color: var(--bs-primary);
 }
 
 .nav-h:hover img {
@@ -106,4 +108,8 @@ footer ul li a {
     background-color: var(--bs-my-btn-color);
     color: white;
     border-color: var(--bs-my-btn-color);
+}
+
+.my-text-color {
+    color: var(--bs-my-txt-color);
 }
