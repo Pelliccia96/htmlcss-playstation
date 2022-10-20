@@ -1,11 +1,16 @@
 :root {
-    --bs-primary: #161c3b;
-    --bs-primary-rgb: 22, 28, 59;
+    --bs-primary-dark: #161c3b;
     --bs-primary-light:#00439C;
+    --bs-danger: #cd3d0f;
+    --bs-danger-rgb: 205, 61, 15;
 }
 
 section, footer {
     padding: 2rem 0;
+}
+
+header a {
+    text-decoration: none;
 }
 
 header.my-header {
@@ -44,6 +49,10 @@ footer ul li a {
     list-style: none;
     color: white;
     padding-bottom: 0.5rem;
+}
+
+.bg-primary-dark {
+    background-color: var(--bs-primary-dark);
 }
 
 .pad-200 {
