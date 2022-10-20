@@ -81,11 +81,13 @@ footer ul li a {
     border: 2px solid var(--bs-primary);
     border-radius: 25%;
     padding: 4px;
+    margin: -6px;
 }
 
 .ps5-h:hover {
     border-bottom: 2px solid;
     border-color: var(--bs-primary);
+    margin: -2px;
 }
 
 .newrel-h:hover {
