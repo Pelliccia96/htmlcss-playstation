@@ -105,4 +105,5 @@ footer ul li a {
 .my-btn-color {
     background-color: var(--bs-my-btn-color);
     color: white;
+    border-color: var(--bs-my-btn-color);
 }
