@@ -62,3 +62,24 @@ footer ul li a {
 .pad-10 {
     padding-top: 8rem;
 }
+
+.playst-h:hover {
+    scale: 1.2;
+}
+
+.ps5-h:hover {
+    border-bottom: 2px solid;
+    border-color: var(--bs-primary);
+}
+
+.newrel-h:hover {
+    scale: 1.1;
+}
+
+.plays-h:hover {
+    opacity: 0.8;
+}
+
+.social-media-h:hover {
+    opacity: 0.5;
+}
