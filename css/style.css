@@ -72,10 +72,6 @@ footer ul li a {
     content: url(../img/chevron-down-solid-hover.svg);
 }
 
-/* .nav-h:hover .d-none {
-    display: inline-block;
-} */
-
 .nav-img-h:hover {
     scale: 1.3;
 }
