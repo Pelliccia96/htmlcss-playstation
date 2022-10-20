@@ -65,6 +65,9 @@ footer ul li a {
 
 .playst-h:hover {
     scale: 1.2;
+    border: 2px solid var(--bs-primary);
+    border-radius: 25%;
+    padding: 4px;
 }
 
 .ps5-h:hover {
